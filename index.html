@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+</head>
+
+<body>
+    <header>
+        <section id="top">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <div class="header">
+                <h1>sneakears</h1>
+            </div>
+            <div class="svgs">
+                <img src="assest/icon-cart.svg" alt="cart" class="cart-icon">
+                <img src="assest/image-avatar.png" alt="avatar" class="avatar">
+            </div>
+        </section>
+        <br>
+        <section id="bottom">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assest/image-product-1-thumbnail.jpg" class="d-block w-100" alt="thumbnail"
+                            class="thumbnail">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assest/image-product-2.jpg" class="d-block w-100" alt="product-2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assest/image-product-3.jpg" class="d-block w-100" alt="product-3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+            <div class="sneaker-company">
+                <h3>Sneakear company</h3>
+            </div>
+        </section>
+    </header>
+    <br>
+    <main>
+        <div class="des-head">
+            <h2>Fall Limited Edition</h2>
+            <br>
+        </div>
+        <br>
+        <div class="des-para">
+            <p>Collections Men Women About Contact Sneaker Company Fall Limited Edition Sneakers These low-profile
+                sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll
+                withstand everything the weather can offer.</p>
+        </div>
+        <br>
+        <div class="price">
+            <span class="current-price"><b>$125.00</b></span>
+        </div>
+        <div class="offer">
+            <span><b>50%</b></span>
+        </div>
+        <div class="offer-dec">
+            <span class="price"><b>$250.00</b></span>
+        </div>
+    </main>
+    <br><br>
+    <footer>
+        <div class="quantity">
+            <img src="assest/icon-minus.svg" alt="minus" class="minus-icon">
+            <span class="quantity-number">0</span>
+            <img src="assest/icon-plus.svg" alt="plus" class="plus-icon">
+        </div>
+        <br>
+        <div class="add-to-cart">
+            <button class="btn1">
+                <b>Add to Cart</b>
+            </button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
